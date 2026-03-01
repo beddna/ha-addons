@@ -32,9 +32,8 @@ options:
   mqtttopic: "ebusd"
   mqttint: "/etc/ebusd/mqtt-hassio.cfg"
   mqttjson: true
-  network_device: "192.168.1.102:9999"  # Tvůj ethernet!
+  network_device: "192.168.1.102:9999"  # Tvůj ethe
   mode: "ens"                           # ens=enhanced high-speed
-Commit → v HA instaluj – teď projde automaticky!
 schema:
   mode: "list(enh|ens|udp)?"
   device: "device(subsystem=tty)?"
